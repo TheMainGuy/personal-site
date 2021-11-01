@@ -43,6 +43,11 @@ const Home = (): JSX.Element => (
             working at&nbsp;
             <a href="https://viatu.com">Viatu</a> and living in Zagreb.
           </Text>
+          <Text textAlign="center">
+            Also doing cool projects in a team, together with 2 other young
+            developers. Check our site, we call ourselves&nbsp;
+            <a href="https://sombrerito.co">Sombrerito</a>
+          </Text>
         </Container>
         <Link href="/about">
           <Button>More about me &rarr;</Button>
@@ -56,8 +61,8 @@ const Home = (): JSX.Element => (
           Get in touch
         </Title>
         <Text textAlign="center">
-          Although I&apos;m not actively looking for job opportunities, my inbox is
-          still open for you. Feel free to ask me anything!
+          Although I&apos;m not actively looking for job opportunities, my inbox
+          is still open for you. Feel free to ask me anything!
         </Text>
         <Grid
           gridGap="2rem"
