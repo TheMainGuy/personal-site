@@ -89,7 +89,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
           Working and Hustling
         </Title>
         <Container maxWidth={['100%', '700px']} marginY="2rem">
-          <Text>I'm a Full Stack Developer living in Zagreb.</Text>
+          <Text>I&apos;m a Full Stack Developer living in Zagreb.</Text>
           <Text>
             During my free time I like to play the guitar, work out, play
             volleyball, and build small apps and products.

@@ -56,7 +56,7 @@ const Home = (): JSX.Element => (
           Get in touch
         </Title>
         <Text textAlign="center">
-          Although I'm not actively looking for job opportunities, my inbox is
+          Although I&apos;m not actively looking for job opportunities, my inbox is
           still open for you. Feel free to ask me anything!
         </Text>
         <Grid

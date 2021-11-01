@@ -25,7 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Tin Ceraj', children }) => {
         <meta property="og:title" content="Tin Ceraj" />
         <meta
           property="og:description"
-          content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
+          content="I&apos;m a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
         />
         <meta property="og:type" content="website" />
         <meta property="twitter:site" content="@_shellbear" />
