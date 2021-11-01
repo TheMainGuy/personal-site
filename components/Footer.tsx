@@ -22,7 +22,7 @@ const StyledFooter = styled.footer`
 
 const FooterGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin-bottom: 30px;
   margin-top: 20px;
@@ -33,27 +33,19 @@ const Footer = (): JSX.Element => {
   const links = React.useMemo(
     () => [
       {
-        url: 'https://github.com/shellbear',
+        url: 'https://github.com/TheMainGuy',
         icon: SiGithub,
-      },
-      {
-        url: 'https://twitter.com/_shellbear',
-        icon: SiTwitter,
       },
       {
         url: 'mailto:tin.ceraj@gmail.com',
         icon: MdMail,
       },
       {
-        url: 'https://malt.fr/profile/antoineordonez',
-        icon: Malt,
-      },
-      {
-        url: 'https://linkedin.com/in/antoine-ordonez',
+        url: 'https://www.linkedin.com/in/tin-ceraj-20a386175/',
         icon: SiLinkedin,
       },
       {
-        url: 'https://instagram.com/croissant2france',
+        url: 'https://instagram.com/tin.ceraj',
         icon: Instagram,
       },
     ],

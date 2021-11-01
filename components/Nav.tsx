@@ -110,7 +110,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
           gridGap="2rem"
           alignItems="center"
           justifyItems="center"
-          gridTemplateColumns="repeat(5, auto)"
+          gridTemplateColumns="repeat(4, auto)"
           style={{
             borderRadius: '25px',
             background: 'rgba(0, 0, 0, 0.04)',
@@ -133,7 +133,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
-        <NavLink href="mailto:tin.ceraj@gmail.com">Contact</NavLink>
+        <NavLink href="mailto:hello@tinceraj.com">Contact</NavLink>
       </Container>
     </Grid>
   );
