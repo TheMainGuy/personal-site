@@ -4,18 +4,18 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import {
-  SiGo,
   SiKubernetes,
-  SiElixir,
   SiPostgresql,
   SiTypescript,
   SiAmazonaws,
-  SiGooglecloud,
-  SiTerraform,
   SiReact,
   SiNextDotJs,
   SiPython,
   SiGraphql,
+  SiDjango,
+  SiVueDotJs,
+  SiDocker,
+  SiMongodb,
 } from 'react-icons/si';
 import { getPosts, Post } from '@posts';
 import { TransparentLink } from '@components';
@@ -28,8 +28,20 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
   const stacks = React.useMemo(
     () => [
       {
-        Icon: SiGo,
-        url: 'https://golang.org/',
+        Icon: SiPython,
+        url: 'https://www.python.org/',
+      },
+      {
+        Icon: SiDjango,
+        url: 'https://www.djangoproject.com/',
+      },
+      {
+        Icon: SiVueDotJs,
+        url: 'https://vuejs.org/',
+      },
+      {
+        Icon: SiDocker,
+        url: 'https://www.docker.com/',
       },
       {
         Icon: SiKubernetes,
@@ -56,24 +68,12 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
         url: 'https://nextjs.org/',
       },
       {
-        Icon: SiElixir,
-        url: 'https://elixir-lang.org/',
-      },
-      {
-        Icon: SiGooglecloud,
-        url: 'https://cloud.google.com/',
-      },
-      {
-        Icon: SiTerraform,
-        url: 'https://www.terraform.io/',
-      },
-      {
         Icon: SiPostgresql,
         url: 'https://www.postgresql.org/',
       },
       {
-        Icon: SiPython,
-        url: 'https://www.python.org/',
+        Icon: SiMongodb,
+        url: 'https://www.mongodb.com/',
       },
     ],
     [],
@@ -86,15 +86,13 @@ const About = ({ experiences }: AboutProps): JSX.Element => {
       </Head>
       <Container alignContent="center" alignItems="center">
         <Title fontSize={['3rem', '4rem']} as="h2">
-          CTO & passionate
+          Working and Hustling
         </Title>
         <Container maxWidth={['100%', '700px']} marginY="2rem">
-          <Text>I&apos;m a Full-Stack/DevOps developer living in Paris.</Text>
+          <Text>I'm a Full Stack Developer living in Zagreb.</Text>
           <Text>
-            During my free time I like going gym, doing Bench Press, make design
-            and make video edits on After Effects. You can check some cool drone
-            edits on my{' '}
-            <a href="https://instagram.com/croissant2france">Instagram</a>.
+            During my free time I like to play the guitar, work out, play
+            volleyball, and build small apps and products.
           </Text>
         </Container>
       </Container>
