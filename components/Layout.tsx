@@ -25,33 +25,31 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Tin Ceraj', children }) => {
         <meta property="og:title" content="Tin Ceraj" />
         <meta
           property="og:description"
-          content="I&apos;m a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
+          content="All-around developer with 5 years of experience building web/mobile applications, microservices, and various internal tools."
         />
         <meta property="og:type" content="website" />
-        <meta property="twitter:site" content="@_shellbear" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:image"
           content="https://tinceraj.com/img/preview.png"
         />
-        {process.env.NODE_ENV === 'production' && (
-          <>
-            <script
-              async
-              src="https://www.googletagmanager.com/gtag/js?id=G-RZP6RWZ32F"
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-      
-                  gtag('config', 'G-RZP6RWZ32F');`,
-              }}
-            />
-          </>
-        )}
+        {/*{process.env.NODE_ENV === 'production' && (*/}
+        {/*  <>*/}
+        {/*    <script*/}
+        {/*      async*/}
+        {/*      src="https://www.googletagmanager.com/gtag/js?id=G-RZP6RWZ32F"*/}
+        {/*    />*/}
+        {/*    <script*/}
+        {/*      dangerouslySetInnerHTML={{*/}
+        {/*        __html: `*/}
+        {/*          window.dataLayer = window.dataLayer || [];*/}
+        {/*          function gtag(){dataLayer.push(arguments);}*/}
+        {/*          gtag('js', new Date());*/}
+
+        {/*          gtag('config', 'G-RZP6RWZ32F');`,*/}
+        {/*      }}*/}
+        {/*    />*/}
+        {/*  </>*/}
+        {/*)}*/}
       </Head>
       <Nav
         isOpen={isOpen}
