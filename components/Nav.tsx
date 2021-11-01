@@ -20,7 +20,7 @@ const states: { [key: string]: React.CSSProperties } = {
     width: '55px',
   },
   '/projects': {
-    left: '340px',
+    left: '224px',
     width: '79px',
   },
 };
