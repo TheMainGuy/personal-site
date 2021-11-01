@@ -32,24 +32,24 @@ const Layout: React.FC<LayoutProps> = ({ title = 'Tin Ceraj', children }) => {
           property="og:image"
           content="https://tinceraj.com/img/preview.png"
         />
-        {/*{process.env.NODE_ENV === 'production' && (*/}
-        {/*  <>*/}
-        {/*    <script*/}
-        {/*      async*/}
-        {/*      src="https://www.googletagmanager.com/gtag/js?id=G-RZP6RWZ32F"*/}
-        {/*    />*/}
-        {/*    <script*/}
-        {/*      dangerouslySetInnerHTML={{*/}
-        {/*        __html: `*/}
-        {/*          window.dataLayer = window.dataLayer || [];*/}
-        {/*          function gtag(){dataLayer.push(arguments);}*/}
-        {/*          gtag('js', new Date());*/}
+        {process.env.NODE_ENV === 'production' && (
+          <>
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=G-X2EMHBBN42"
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
 
-        {/*          gtag('config', 'G-RZP6RWZ32F');`,*/}
-        {/*      }}*/}
-        {/*    />*/}
-        {/*  </>*/}
-        {/*)}*/}
+                  gtag('config', 'G-X2EMHBBN42');`,
+              }}
+            />
+          </>
+        )}
       </Head>
       <Nav
         isOpen={isOpen}
