@@ -18,7 +18,7 @@ const Home = (): JSX.Element => (
     >
       <Container alignItems="center" alignContent="center">
         <Image
-          src="/profile.png"
+          src="/profile-black-and-white.png"
           alt="Tin Ceraj"
           width="120px"
           height="120px"
